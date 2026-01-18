@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700&family=Pacifico&family=Sniglet&family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import './styles/animations.css';
+
+:root {
+  /* Pastel Kawaii Palette */
+  --color-primary: #FFB7C5;
+  /* Cherry Blossom Pink */
+  --color-secondary: #FFD1DC;
+  /* Pastel Pink */
+  --color-tertiary: #E0BBE4;
+  /* Lavender */
+  --color-accent: #B5EAD7;
+  /* Pastel Mint */
+  --color-text: #6D4C41;
+  /* Warm Brown (softer than black) */
+  --color-text-light: #8D6E63;
+  --color-bg: #FFF0F5;
+  /* Lavender Blush */
+  --color-white: #ffffff;
+  --color-glass: rgba(255, 255, 255, 0.7);
+
+  /* Fonts */
+  --font-heading: 'Fredoka', cursive, sans-serif;
+  --font-body: 'Nunito', sans-serif;
+
+  /* Spacing & Radius */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 30px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 4px 6px -1px rgba(255, 183, 197, 0.2);
+  --shadow-md: 0 10px 15px -3px rgba(255, 183, 197, 0.3);
+  --shadow-float: 0 20px 40px rgba(255, 183, 197, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+button {
+  font-family: var(--font-heading);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  border: 3px solid var(--color-bg);
+}
