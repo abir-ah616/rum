@@ -28,8 +28,8 @@ export const HomePage: React.FC = () => {
                         <div className="profile-header" style={{ textAlign: 'center', marginBottom: '30px' }}>
                             <h3 style={{ fontSize: '2rem', color: 'var(--color-text)', marginBottom: '10px' }}>Rumiee / Payel</h3>
                             <div className="tags" style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-                                <span className="tag">17 Years Old</span>
-                                <span className="tag">SSC 2026</span>
+                                <span className="tag">23 Years Old</span>
+                                <span className="tag">SSC 2019</span>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ export const HomePage: React.FC = () => {
                                 <GraduationCap className="stat-icon" color="#B5EAD7" />
                                 <div>
                                     <label>Education</label>
-                                    <p>SSC 2026 Batch</p>
+                                    <p>SSC 2019 Batch</p>
                                 </div>
                             </div>
 
@@ -163,3 +163,4 @@ export const HomePage: React.FC = () => {
         </>
     );
 };
+
